@@ -1,0 +1,65 @@
+[
+  {
+    "name": "ko observable",
+    "trigger": "koo",
+    "usage": "koo",
+    "description": "",
+    "template": "ko.observable(!!{cursor})"
+  },
+  {
+    "name": "ko observable array",
+    "trigger": "kooa",
+    "usage": "kooa",
+    "description": "",
+    "template": "ko.observableArray([{!!{cursor}}]);"
+  },
+  {
+    "name": "ko computed",
+    "trigger": "koc",
+    "usage": "koc",
+    "description": "",
+    "template": "ko.computed(function(){return !!{cursor}}, $${ViewModel});"
+  },
+  {
+    "name": "ko computed extended\n",
+    "trigger": "koce",
+    "usage": "koce",
+    "description": "",
+    "template": "knockout/knockout-computed.snippet"
+  },
+  {
+    "name": "ko fromJS",
+    "trigger": "kmf",
+    "usage": "kmf",
+    "description": "",
+    "template": "ko.mapping.fromJS($${data}, !!{cursor});\n"
+  },
+  {
+    "name": "km toJS",
+    "trigger": "kmt",
+    "usage": "kmt",
+    "description": "",
+    "template": "ko.mapping.toJS($${ViewModel}, !!{cursor});\n"
+  },
+  {
+    "name": "ko applybindings",
+    "trigger": "kmab",
+    "usage": "kmab",
+    "description": "",
+    "template": "ko.applyBindings($${ViewModel})"
+  },
+  {
+    "name": "ko ViewModel",
+    "trigger": "kvm",
+    "usage": "kvm",
+    "description": "",
+    "template": "knockout/viewmodel.snippet"
+  },
+  {
+    "name": "ko binding handler",
+    "trigger": "kobh",
+    "usage": "kobh",
+    "description": "",
+    "template": "knockout/bindinghandlers.snippet"
+  }
+]
