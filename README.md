@@ -1,4 +1,4 @@
-knockout snippets for Brackets Snippets
+knockout snippets for Brackets Snippets (brackets-knockoutjs-snippets)
 ======
 
 KnockoutJS Snippets for the Snippet extension for Brackets
@@ -24,3 +24,4 @@ Feel free make suggestions and optimise.
 With love.
 
 Bhagya (http://about.me/bhagyas)
+=======
