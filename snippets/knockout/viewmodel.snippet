@@ -1,0 +1,13 @@
+/*$${ViewModelName} View Model*/
+function $${ViewModelName}(data, parent){
+    var self = this;
+    self.parent = parent;
+    !!{cursor}
+}
+
+//Ignores the parent when serialising to JSON to avoid circular dependencies
+$${ViewModelName}.prototype.toJSON = function(){
+    var copy = ko.toJS(this); //easy way to get a clean copy
+    delete copy.parent; //remove an extra property
+    return copy; //return the copy to be serialised
+}
